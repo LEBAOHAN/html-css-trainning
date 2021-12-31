@@ -78,12 +78,11 @@ li{
 }
     /*update20211231 thêm các lệnh bên dưới đây*/
 .cat1{
-    border: 30px solid rgb(133, 45, 199);
+    border: 40px solid rgb(133, 45, 199);
     padding: 20px;
-    margin: 20px;
-    box-shadow:5px 5px 5px 8px silver;
-    border-radius: 100%;
-    border-image: url(https://th.bing.com/th/id/OIP.nov6TQP15h5x2buKs5csVwHaE8?w=261&h=180&c=7&r=0&o=5&pid=1.7) 120 round;
-
+    margin: 50px;
+    box-shadow:5px 5px 10px 10px silver;
+    /* border-radius: 100%; */
+    border-image: url('https://th.bing.com/th/id/OIP.nov6TQP15h5x2buKs5csVwHaE8?w=261&h=180&c=7&r=0&o=5&pid=1.7') 120 120 round;
 }
 /*Theo như tôi hiểu*/
