@@ -80,7 +80,7 @@ li{
 .cat1{
     border: 40px solid rgb(133, 45, 199);
     padding: 20px;
-    margin: 50px;
+    margin: 0 150px;
     /*tạo bóng cho viền*/
     box-shadow: /*chỉnh bóng sang trái hoặc phải*/5px 
     /*chỉnh bóng lên trên hoặc xuống dưới*/5px 
