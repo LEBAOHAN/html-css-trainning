@@ -1,0 +1,28 @@
+/*header*/
+header{
+    text-align: center;
+}
+/*main*/
+/*Section
+=====================================================================*/
+/* part one */
+.one{
+    text-align: center;
+}
+.one ol{
+    list-style-type: square;
+}
+.one ul{
+    list-style-type: circle;
+}
+.one .end1{
+    list-style-type: disc;
+}
+/* part two */
+.two{
+    text-align: center;
+}
+.two ul{
+    list-style-image: url(../assets/image/healthy.jpg);
+    margin: 10px;
+}
