@@ -20,3 +20,7 @@ table{
 table tr, td{
     border: 2px solid #184;   
 }
+a{
+    /*cursor*/
+    cursor: move;
+}
