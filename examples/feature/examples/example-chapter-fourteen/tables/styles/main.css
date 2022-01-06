@@ -10,11 +10,11 @@ form{
 table{
     width: 300px;
     padding: 2px;
-    /*empty-cells*/
+    /*--empty-cells--*/
     empty-cells: hide;
-    /*border-spacing*/
+    /*--border-spacing--*/
     border-spacing: 7px 0px;
-    /*border-collapse*/
+    /*--border-collapse--*/
     border-collapse: collapse;
 }
 table tr, td{
