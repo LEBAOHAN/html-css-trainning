@@ -1,0 +1,86 @@
+body {
+  box-sizing: border-box;
+  margin: 8px;
+  padding: 0px;
+  background: url(../assets/images/heath\ foundation\ cebu\ background.jpg);
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+}
+/* icon */
+.fa-gratipay {
+  background-color: rgba(2, 202, 2, 0.911);
+  border: 3px solid rgba(2, 202, 2, 0.911);
+  border-radius: 100% ;
+  color: white;
+}
+/* nav */
+#nav {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+  color: white;
+}
+#nav .nav-1 {
+  display: flex;
+  list-style: none;
+}
+#nav .nav-1 li {
+  padding: 10px 0px;
+  margin-right: 30px;
+  margin-left: 30px;
+}
+#nav .share {
+  display: block;
+  margin: -5px 0px 10px 0px;
+  border: none;
+  background-color: rgb(4, 240, 83);
+  border-radius: 6px;
+}
+#nav .nav-1 li:hover {
+  border-bottom: 2px solid rgb(4, 240, 83);
+}
+/* header */
+#header {
+  margin-top: 100px;
+  text-align: center;
+  font-size: 40px;
+  color: white;
+}
+#header table {
+  font-size: 20px;
+  margin-top: 10px;
+  margin: 0px auto;
+  border-spacing: 30px 0px;
+}
+#header .button, .summit {
+  padding: 10px 20px;
+  border-radius: 3px;
+  border: none;
+  color: whitesmoke;
+}
+#header .button {
+  background-color: rgb(24, 197, 24);
+  font-size: 15px;
+}
+#header .summit {
+  background-color: rgb(109, 103, 103);
+  font-size: 15px;
+}
+#header .button:hover {
+  background-color: rgb(132, 194, 62);
+  color: rgba(6, 122, 255, 0.877);
+}
+#header .summit:hover {
+  background-color: rgb(192, 187, 187);
+  color: rgba(6, 122, 255, 0.877);
+}
+/* section:title */
+#title {
+  margin: 200px 0px;
+  text-align: center;
+  background-color: white;
+  font-size: 14px;
+}
+#title p {
+  padding: 38px 320px;
+}
