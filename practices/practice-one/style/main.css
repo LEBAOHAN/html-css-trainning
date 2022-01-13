@@ -3,7 +3,6 @@ body {
   margin: 8px;
   padding: 0px;
   background: url(../assets/images/heath\ foundation\ cebu\ background.jpg);
-  color: black;
   font-family: Arial, Helvetica, sans-serif;
 }
 /* icon */
@@ -178,9 +177,9 @@ body {
   font-size: 20px;
 }
 /* p-4  */
-#content.p-4 .p-4a, .p-4b {
+#content .p-4 .p-4a, .p-4b {
   display: flex;
-  margin-left: -100px;
+  margin-left: 10px;
 }
 #content .p-4 .p-4a img {
   width: 100%;
@@ -216,13 +215,13 @@ body {
 }
 #content .p-5 .p-5b table {
   border-radius: 7px;
-  margin-left: 80px;
+  margin-left: 300px;
   border: 1px solid whitesmoke;
   padding: 30px 30px;
   border-spacing: 0px 20px;
   box-shadow: -1px 0px 4px 0px black ;
 }
-#content .p-5 .p-5b table input,select {
+#content .p-5 .p-5b table input, select {
   border: 1px solid gray;
   padding: 5px;
   border-radius: 3px;
@@ -234,4 +233,84 @@ body {
   background-color: rgb(18, 121, 14);
   border-radius: 4px;
   border: none;
+}
+/* reading */
+#reading {
+  padding: 0px 100px 0px 100px;
+  margin: -15px -8px -40px -8px;
+  background: white;
+}
+/* reading-1 */
+#reading .reading-1 {
+  font-size: 16px;
+  border-spacing: 50px 5px;
+}
+#reading .reading-1 .R-resource {
+  font-size: 15px;
+  color: rgb(6, 165, 99);
+}
+#reading .reading-1 input {
+  background-color: rgb(24, 197, 24);
+  font-size: 15px;
+  padding: 10px 20px;
+  border-radius: 3px;
+  border: none;
+  color: whitesmoke;
+}
+#reading .reading-1 input:hover {
+  background-color: rgb(132, 194, 62);
+  color: rgba(6, 122, 255, 0.877);
+}
+/* reading-2 */
+#reading .reading-2 {
+  display: flex;
+  justify-content: space-around;
+  margin: 0px 20px 0px 40px
+}
+#reading .reading-2 fieldset {
+  width: auto;
+  height: auto;
+}
+#reading .reading-2 input {
+  background-color: rgb(24, 197, 24);
+  font-size: 15px;
+  padding: 10px 20px;
+  border-radius: 3px;
+  border: none;
+  color: whitesmoke;
+}
+#reading .reading-2 input:hover {
+  background-color: rgb(132, 194, 62);
+  color: rgba(6, 122, 255, 0.877);
+}
+/* reading-3 */
+#reading .reading-3 {
+  text-align: center;
+  border: 1px solid gray;
+  border-radius: 6px;
+  color: aliceblue;
+  background-color: green;
+  top: 10px;
+}
+#reading .reading-3 p, b {
+ font-size: 18px;
+}
+#reading .reading-3 p {
+ font-size: 15px;
+}
+#reading .reading-3 input {
+  padding: 5px 10px 5px 5px;
+}
+#reading .reading-3a {
+  margin: 10px 10px 10px 450px;
+}
+/* footer */
+#footer {
+  padding: 0px 100px 0px 100px;
+  margin: 20px -8px -40px -8px;
+  background: rgb(27, 27, 27);
+  color: white;
+  font-size: 13px;
+  display: flex;
+  justify-content: space-between;
 }
