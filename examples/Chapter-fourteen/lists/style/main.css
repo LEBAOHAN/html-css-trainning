@@ -1,0 +1,51 @@
+/*header*/
+header{
+    text-align: center;
+}
+/*main*/
+/*Section
+=====================================================================*/
+/* part one */
+.one{
+    text-align: center;
+}
+.one ol{
+    /*list-style-type*/
+    list-style-type: square;
+}
+.one ul{
+    list-style-type: circle;
+}
+.one .end1{
+    list-style-type: disc;
+}
+/* part two */
+.two{
+    text-align: center;
+}
+.two ul{
+    /*list-style-image*/
+    list-style-image: url(../assets/image/star.jpg);
+    margin: 10px 0px 0px 0px;
+}
+/* part three */
+.three{
+    text-align: left;
+}
+.three ol{
+    /*list-style-position*/
+    list-style-position: inside;
+    padding: 0px 24px;
+}
+.three ul{
+    list-style-position: outside;
+}
+.four{
+    text-align: left;
+}
+.four ul{
+    /*list-style*/
+    list-style: inside circle;
+    width: 300px;
+    margin: 10px 0px 0px 0px;
+    padding: 0px 24px;}
